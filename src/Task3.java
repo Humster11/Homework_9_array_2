@@ -6,7 +6,7 @@ public class Task3 {
         for (int element : payments) {
             sum = sum+element;
         }
-        averagePayment = sum/4;
+        averagePayment = sum/payments.length;
         System.out.println("Средняя сумма трат за месяц составила "+averagePayment+" рублей");
     }
 }
